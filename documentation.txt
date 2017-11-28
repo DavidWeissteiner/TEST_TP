@@ -1,0 +1,11 @@
+C0
+	Ich erstelle in Github ein neues Repository namens "TEST_TP"
+	Dann erstelle ich auf meinem Home-Laufwerk einen neuen Ordner für dieses Repository.
+	In diesem Ordner gebe ich dann den Befehl <git init> ein, um dort ein neues lokales Repository zu definieren (dabei erstellt es mir automatisch den Branch "master").
+	Mit dem Befehl <git clone https://github.com/DavidWeissteiner/TEST_TP.git> kann ich dann das in Github erstellte Repository in mein lokales Repository herunterladen, und es setzt den Zeiger meines lokalen Repositories automatisch auf diesen Link.
+
+C0 --> C1
+	Mit dem Befehl <touch documentation.txt> erstelle ich eine neues Textdokument, in welchem ich jeden Schritt dokumentieren werden.
+	Dann füge ich mit dem Befehl <git add *> alle Files meinem lokalen Repository hinzu, damit sie "getrackt" werden.
+	Ich erstelle mit dem Befehl <git commit -m "C1"> einen neuen Commit mit der Message "C1" damit ich nachher sehen kann was ich bei diesem Commit gemacht habe.
+	Danach lade ich die neue Version mit dem Befehl <git push> auf Github hinauf.
