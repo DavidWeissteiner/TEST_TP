@@ -9,3 +9,8 @@ C0 --> C1
 	Dann füge ich mit dem Befehl <git add *> alle Files meinem lokalen Repository hinzu, damit sie "getrackt" werden.
 	Ich erstelle mit dem Befehl <git commit -m "C1"> einen neuen Commit mit der Message "C1" damit ich nachher sehen kann was ich bei diesem Commit gemacht habe.
 	Danach lade ich die neue Version mit dem Befehl <git push> auf Github hinauf.
+	
+C1 --> C2
+	Ich füge wiederum mit dem Befehl <git add *> alle Files meinem lokalen Repository hinzu, damit sie "gestaged" und später hinaufgeladen wird.
+	Ich erstelle mit dem Befehl <git commit -m "C2"> einen neuen Commit mit der Message "C2" damit ich nachher sehen kann was ich bei diesem Commit gemacht habe.
+	Danach lade ich die neue Version mit dem Befehl <git push> auf Github hinauf.
