@@ -14,3 +14,14 @@ C1 --> C2
 	Ich füge wiederum mit dem Befehl <git add *> alle Files meinem lokalen Repository hinzu, damit sie "gestaged" und später hinaufgeladen wird.
 	Ich erstelle mit dem Befehl <git commit -m "C2"> einen neuen Commit mit der Message "C2" damit ich nachher sehen kann was ich bei diesem Commit gemacht habe.
 	Danach lade ich die neue Version mit dem Befehl <git push> auf Github hinauf.
+
+C2 --> C3
+	Mit dem Befehl <git branch iss53> erstelle ich einen neuen Branch (=Entwicklungszweig) namens "iss53".
+	Ich springe mit meinem HEAD durch den Befehl <git checkout iss53> zum neuen Branch.
+	Danach dokumentiere ich das in documentation.txt und mache wiederum <git add *>, <git commit -m "C3"> und <git push>, um es zu committen und hinaufzuladen.
+	
+C3 --> C4
+	Um den neuen Branch an dem Branch "master" anzuhängen, springe ich mit meinem HEAD durch den Befehl <git checkout master> zurück auf den Commit C2.
+	Dort erstelle ich einen neuen Branch namens "hotfix" mit dem Befehl <git branch hotfix>.
+	Dann springe ich mit meinem HEAD auf den Branch "hotfix" durch den Befehl <git checkout hotfix>.
+	Dort mach ich wieder <git add *>, <git commit -m "C4"> und <git push>, um es zu committen und hinaufzuladen.
